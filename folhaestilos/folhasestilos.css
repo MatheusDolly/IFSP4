@@ -1,0 +1,15 @@
+main{
+    display: grid;
+    width: 80%;
+    margin: 0;
+    grid-template-columns: 25% 75%; /*valor das medidas*/
+    grid-template-areas: "figure" "section";
+}
+article{
+    width: 100%;
+    display: grid;
+}
+img{
+    width: 150px;
+    border-radius: 100%;
+}
